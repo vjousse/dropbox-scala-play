@@ -17,6 +17,6 @@ Launch the Play application and then go to this url [http://localhost:9000/dropb
 
 This code is provided as a basic example to get you started with Dropbox and Play, it's not intended to be used in production as it is.
 
-# External libraries
+# External libraries
 
 [dropbox4s](https://github.com/Shinsuke-Abe/dropbox4s)
