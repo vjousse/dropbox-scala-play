@@ -16,6 +16,9 @@ application.langs="en"
 
 dropbox.app.key = "YOUR_APP_KEY"
 dropbox.app.secret = "YOUR_APP_SECRET";
+dropbox.app.name = "DropboxPlayExample"
+dropbox.app.version = "0.0.1"
+dropbox.app.redirectUri = "http://localhost:9000/dropbox/auth-finish"
 
 # Global object class
 # ~~~~~
