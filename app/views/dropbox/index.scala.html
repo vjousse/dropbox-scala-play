@@ -1,0 +1,7 @@
+@(appKey: String, redirectUri: String, csrfToken: String)
+
+@main("Welcome to Readflow") {
+
+<a href="https://www.dropbox.com/1/oauth2/authorize?client_id=@appKey&response_type=code&redirect_uri=@redirectUri&state=@csrfToken">Link your dropbox account</a>
+
+}

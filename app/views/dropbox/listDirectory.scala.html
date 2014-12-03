@@ -1,0 +1,9 @@
+@(children: List[com.dropbox.core.DbxEntry])
+
+<h1>Listing directory</h1>
+
+<ul>
+@for(child <- children) {
+    <li>@child.name : @child.toString()</li>
+}
+</ul>

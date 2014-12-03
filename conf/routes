@@ -1,0 +1,13 @@
+# Routes
+# This file defines all application routes (Higher priority routes first)
+# ~~~~
+
+# Home page
+GET     /                                  controllers.Application.index
+
+GET     /dropbox                           controllers.Dropbox.index
+GET     /dropbox/auth-finish               controllers.Dropbox.authFinish(code: String ?="", state: String ?="")
+GET     /dropbox/list                      controllers.Dropbox.listDirectory()
+
+# Map static resources from the /public folder to the /assets URL path
+GET     /assets/*file               controllers.Assets.at(path="/public", file)
